@@ -319,11 +319,11 @@ li > span > i {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(36, 150, 63);
-    background-color: rgb(36, 150, 63);
-    color: rgb(255, 255, 255);
+    border: 1px solid rgb(190, 191, 188);
+    background-color:green;
+    color: black;
     font-size: 13px;
-    border-radius: 6px;
+    border-radius: 30px;
     height: 20px;
     width: 40px;
     margin: 7.2px 0;
@@ -336,7 +336,7 @@ li > span > i {
 }
 
 .Food-menu .Food-item .Food-item-margin .Food-item-link .rating .fa-star {
-    color: #ffffff;
+    color:red;
     font-size: 10px;
     height: 9px;
 }
@@ -492,6 +492,7 @@ li > span > i {
     width: 40px;
     background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
     margin-bottom: 8px;
+ 
   }
   
   .shimmer-category {

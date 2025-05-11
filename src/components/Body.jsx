@@ -155,13 +155,13 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             const filteredRest = listOfRest.filter(
-              (res) => res.info.avgRating > 4.3
+              (res) => res.info.avgRating > 4
             );
             setfilteredRestaurant(filteredRest);
             toast.success("Highly Rated Restaurants");
           }}
         >
-          Ratings 4.3+
+          Ratings 4+
         </button>
         <button
           className="filter-btn"
